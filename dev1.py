@@ -9,6 +9,9 @@ COLOR_COEFFICIENTS = {
     "Серый металлик": 1.3
 }
 
+def test_func():
+    
+
 def calculate_total_cost(part_name, color_name):
     part_cost = calculate_part_cost(part_name)
     color_coefficient = COLOR_COEFFICIENTS.get(color_name, None)
